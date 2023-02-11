@@ -16,17 +16,19 @@
   <body>
     <header class="header">
       <nav>
-        <a href="./index.html" class="logo-cabecera">
-          <span class="logo-azul">Web</span>Studio</a
+        <a href="./index.html" class="icon-header">
+          <span class="icon-blue">Web</span>Studio</a
         >
         <ul>
           <li>
-            <a href="./index.html" class="cabecera-ref current">Estudio</a>
+            <a href="./index.html" class="header-ref">Estudio</a>
           </li>
           <li>
-            <a href="./portafolio.html" class="cabecera-ref">Portafolio</a>
+            <a href="./portafolio.html" class="header-ref color-site"
+              >Portafolio</a
+            >
           </li>
-          <li><a href="#" class="cabecera-ref">Contactos</a></li>
+          <li><a href="#" class="header-ref">Contactos</a></li>
         </ul>
       </nav>
       <ul>
@@ -41,8 +43,9 @@
       </ul>
     </header>
     <main>
-      <section class="filter-text">
-        <ul>
+      <section>
+        <header class="hidden-header"></header>
+        <ul class="filter-text">
           <li>
             <button type="button" class="filter-btn filter-text">Todo</button>
           </li>
@@ -65,8 +68,6 @@
             </button>
           </li>
         </ul>
-      </section>
-      <section>
         <ul>
           <li>
             <img src="./img/8.jpg" width="370" alt="Tecnoduck" />
@@ -119,22 +120,22 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo-pie">
-        <span class="logo-pie-azul">Web</span>Studio</a
+      <a href="./index.html" class="icon-footer">
+        <span class="icon-footer-blue">Web</span>Studio</a
       >
       <address class="address">
-        Calz. Ticomán 500, Ciudad de México, CDMX, México
+        <ul>
+          <li>Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+525555296000" class="footer-tel">+52 55 5529 6000</a>
+          </li>
+        </ul>
       </address>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" class="footer-mail"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+525555296000" class="footer-tel">+52 55 5529 6000</a>
-        </li>
-      </ul>
     </footer>
   </body>
 </html>

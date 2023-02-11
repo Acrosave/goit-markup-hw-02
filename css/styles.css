@@ -18,13 +18,12 @@ a {
   text-decoration: none;
 }
 .header {
-  font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid #ececec;
 }
-.logo-azul {
+.icon-blue {
   color: var(--color-web);
 }
-.logo-cabecera {
+.icon-header {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   color: #000000;
@@ -34,8 +33,7 @@ a {
   letter-spacing: 0.03em;
   text-align: right;
 }
-.cabecera-ref {
-  font-family: 'Roboto';
+.header-ref {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -43,11 +41,12 @@ a {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.current {
+.header-ref:hover,
+.header-ref:focus {
   color: var(--color-web);
 }
-.cabecera-ref:hover,
-.cabecera-ref:focus {
+.color-main,
+.color-site {
   color: var(--color-web);
 }
 .tel,
@@ -104,27 +103,36 @@ a {
   letter-spacing: 0.03em;
   color: var(--color-segundo-texto);
 }
-.titulo,
-.titulo-equipo {
+.title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: inherit;
 }
-.equipo-nombre,
-.equipo-trabajo,
+.section-work {
+  background-color: #f5f4fa;
+}
+.title-team {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+.team-name,
+.team-work,
 .product-title,
 .product-descript {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-.equipo-nombre,
+.team-name,
 .product-title {
   font-weight: 500;
 }
-.equipo-trabajo,
+.team-work,
 .product-descript {
   color: var(--color-segundo-texto);
 }
@@ -132,10 +140,10 @@ a {
   font-style: normal;
   background-color: var(--color-segundo-fondo-pantalla);
 }
-.logo-pie-azul {
+.icon-footer-blue {
   color: var(--color-web);
 }
-.logo-pie {
+.icon-footer {
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
   font-weight: 700;
@@ -177,6 +185,10 @@ a {
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
+  padding: 6px 24px;
+}
+.hidden-header {
+  visibility: hidden;
 }
 .filter-btn:hover,
 .filter-btn:focus {
